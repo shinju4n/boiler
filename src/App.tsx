@@ -1,10 +1,10 @@
-import { Button } from "./components/ui/button";
+import RootLayout from "./components/layout/root-layout";
 
 function App() {
   return (
-    <div className="w-full flex-center">
-      <Button>Click me</Button>
-    </div>
+    <RootLayout>
+      <div className="size-5 bg-red-500"></div>
+    </RootLayout>
   );
 }
 
